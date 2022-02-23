@@ -1,0 +1,116 @@
+﻿
+
+h1 {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+h1:hover {
+    background-color: blue;
+}
+h1 {
+    text-shadow: 1px 1px;
+}
+h1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+}
+p:first-child {
+    color: blue;
+}
+p i:first-child {
+    color: darkred;
+}
+::marker {
+    color: red;
+    font-size: 23px;
+}
+::selection {
+    color: red;
+    background: yellow;
+}
+img {
+    opacity: 0.5;
+}
+    img:hover {
+        opacity: 1.0;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+.active {
+    background-color: #04AA6D;
+}
+p {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+#grad3 {
+    height: 200px;
+    background-color: red; 
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}
+h2 {
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+    padding: 15px;
+    color: green;
+}
+
+
+
+
+
+
+
+
+
